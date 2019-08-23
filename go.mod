@@ -1,4 +1,4 @@
-module gin-mapping
+module github.com/Tallone/gin-mapping
 
 go 1.12
 

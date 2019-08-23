@@ -11,3 +11,7 @@ this tool will mapping handle path in this way:
 finally will get `/group/method_name` in gin routers
 
 usage can refer `mapping_test.go` file.
+
+### Installation
+
+`go get github.com/Tallone/gin-mapping`
