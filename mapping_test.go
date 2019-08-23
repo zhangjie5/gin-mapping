@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-type A struct {}
+type A struct{}
 
 func (a *A) Group() string {
 
@@ -23,6 +23,6 @@ func TestMapping(t *testing.T) {
 	g := gin.Default()
 	Register(g, api)
 	for _, v := range g.Routes() {
-		assert.Equal(t, v.Path, "/a/Hello")
+		assert.Equal(t, v.Path, "/a/hello")
 	}
 }
